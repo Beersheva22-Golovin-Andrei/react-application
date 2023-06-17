@@ -18,6 +18,7 @@ const Clock: React.FC<Props> = ({time, city})=>{
 }
 export default Clock;
 
+
 function timeFromZone (time:Date, city: string):string {
     let res = true;
     let index : number = 0;
